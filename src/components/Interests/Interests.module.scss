@@ -1,0 +1,7 @@
+.interests {
+  display: grid;
+  row-gap: 24px;
+  column-gap: 36px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 36px;
+}
