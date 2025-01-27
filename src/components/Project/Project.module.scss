@@ -1,0 +1,97 @@
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto 72px;
+}
+
+.swap {
+  .projectDetails {
+    order: 2;
+  }
+
+  .projectScreenshots {
+    padding-right: 36px;
+    padding-left: 0;
+  }
+}
+
+.projectDetails {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+}
+
+.projectHeader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 12px;
+}
+
+.name {
+  margin: 0;
+  font-size: 42px;
+  background: linear-gradient(to right, var(--pink), var(--blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.projectContent {
+  display: flex;
+  width: 100%;
+}
+
+.description {
+  flex: 1;
+  padding: 0 24px 0 0;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+
+.projectButtons {
+  display: flex;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  background: var(--green);
+  margin-right: 8px;
+  color: #282f54;
+  font-size: 18px;
+  font-weight: 600;
+
+  &:hover {
+    border-color: var(--green);
+    box-shadow: var(--green) 0 0 8px 1px;
+  }
+}
+
+.buttonIcon {
+  display: flex;
+  margin-right: 8px; 
+}
+
+.projectImage {
+  flex: 1;
+}
+
+.projectScreenshots {
+  flex: 2;
+  display: block;
+  margin-top: 16px;
+  padding-left: 36px;
+}
+
+.projectScreenshot {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 8px 4px var(--blue);
+}
