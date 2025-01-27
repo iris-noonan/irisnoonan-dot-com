@@ -1,0 +1,41 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #c1cbff;
+  background: #282f54;
+  color: var(--white);
+}
+
+@media (prefers-color-scheme: dark) {
+  .app {
+    background: #282f54;
+    color: var(--white);
+  }
+}
+
+.appSetDark {
+  background: red;
+  color: var(--white);
+}
+
+.appSetLight {
+  background: orange;
+  color: var(--white);
+}
+
+.appContent {
+  width: 100%;
+  max-width: 920px;
+}
+
+.appTitle {
+  width: fit-content;
+  font-size: 56px;
+  margin: 0 auto 42px;
+  background: linear-gradient(to right, var(--blue), var(--green));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
