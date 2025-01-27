@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  background: var(--pink);
+  color: var(--white);
+}
+
+.footerCopyright {
+  max-width: 1200px;
+  padding: 18px;
+}
