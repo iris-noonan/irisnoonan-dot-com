@@ -1,0 +1,19 @@
+export const skills = [
+  'JS',
+  'Html5',
+  'CSS',
+  'React',
+  'Mongo',
+  'Mongoose',
+  'Express',
+  'Node',
+  'Python',
+  'Postgres',
+  'Rest',
+  'Git',
+  'MERN',
+  'Postman',
+  'Netlify',
+  'Cloudinary',
+  'Heroku'
+]
