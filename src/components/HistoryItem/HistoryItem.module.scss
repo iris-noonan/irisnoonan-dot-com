@@ -1,0 +1,48 @@
+.historyItem {
+  position: relative;
+  padding-left: 20px;
+  width: 100%;
+  margin-bottom: 12px;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: 0;
+    background: var(--blue);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 6px;
+    left: 4px;
+    background: var(--blue);
+    width: 2px;
+    height: calc(100% - 36px);
+  }
+}
+
+.historyItemTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background: linear-gradient(to right, var(--pink), var(--blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.historyItemTitleCompany {
+  margin: 0;
+}
+
+.historyItemPosition {
+  margin: 0 0 4px;
+}
+
+.historyItemDescriptions {
+  margin: 0;
+}
