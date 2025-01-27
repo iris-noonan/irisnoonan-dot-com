@@ -1,0 +1,36 @@
+.skill {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgba(116, 133, 225, 0.28);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.2px);
+  -webkit-backdrop-filter: blur(11.2px);
+  border: 1px solid rgba(116, 133, 225, 0.27);
+  padding: 18px;
+}
+
+.small {
+  border-radius: 12px;
+  padding: 8px 12px;
+  
+  .skillLogo {
+    min-height: 0;
+  }
+
+  .skillName {
+    font-size: 14px;
+    margin-left: 8px;
+  }
+}
+
+.skillLogo {
+  min-height: 42px;
+}
+
+.skillName {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 16px;
+}
