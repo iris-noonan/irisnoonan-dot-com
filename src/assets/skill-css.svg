@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>css</title>
+    <g id="css" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" fill="#7485E1" fill-rule="nonzero" points="4.18232422 27.0011133 1.775 0 28.2275 0 25.8175977 26.9968359 14.9850781 30"></polygon>
+        <polygon id="Path" fill="#8A97E1" fill-rule="nonzero" points="23.7544531 25.2778125 25.8139062 2.20769531 15.00125 2.20769531 15.00125 27.7045313"></polygon>
+        <polygon id="Path" fill="#EBEBEB" fill-rule="nonzero" points="7.29382812 12.2220703 7.59060547 15.5336133 15.00125 15.5336133 15.00125 12.2220703"></polygon>
+        <polygon id="Path" fill="#EBEBEB" fill-rule="nonzero" points="6.99845703 8.83095703 15.00125 8.83095703 15.00125 5.51935547 6.69740234 5.51935547"></polygon>
+        <polygon id="Path" fill="#EBEBEB" fill-rule="nonzero" points="15.00125 20.8225781 14.9867187 20.8264453 11.2985937 19.8305859 11.0628711 17.1894141 7.73849609 17.1894141 8.2025 22.389082 14.9860156 24.2722852 15.00125 24.2680078"></polygon>
+        <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="14.9898242 12.2220703 14.9898242 15.5336133 19.0676563 15.5336133 18.6832813 19.8284766 14.9898242 20.825332 14.9898242 24.2706445 21.7787305 22.389082 21.8285352 21.8295703 22.6066602 13.1112891 22.6875195 12.2220703 23.2853516 5.51935547 14.9898242 5.51935547 14.9898242 8.83095703 19.6561719 8.83095703 19.3547656 12.2220703"></polygon>
+    </g>
+</svg>
