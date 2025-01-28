@@ -10,11 +10,6 @@ const Header = () => {
       </div>
       <ul className={styles.headerMenu}>
         <li className={styles.headerMenuItem}>
-          <a href="#about">
-            About
-          </a>
-        </li>
-        <li className={styles.headerMenuItem}>
           <a href="#skills">
             Skills
           </a>

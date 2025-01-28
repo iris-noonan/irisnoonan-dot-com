@@ -26,7 +26,6 @@ const App = () => {
     <div className={styles.app}>
       <Header />
       <div className={styles.appContent}>
-        <h2 id="about" className={styles.appTitle}>About</h2>
         <Biography />
         <h2 id="skills" className={styles.appTitle}>Skills</h2>
         <Skills skills={skills} showGrid />
