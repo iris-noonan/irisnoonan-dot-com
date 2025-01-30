@@ -9,7 +9,7 @@ import Linkedin from '../svgs/Linkedin'
 
 import styles from "./Project.module.scss"
 
-const Project = ({swap, name, logo, skills, description, image}) => {
+const Project = ({swap, name, logo, skills, description, image, github, live}) => {
   const [logoSrc, setLogoSrc] = useState('');
   import(`../../assets/logo-${logo}.svg`).then((module) => {
     setLogoSrc(module.default);
@@ -18,6 +18,9 @@ const Project = ({swap, name, logo, skills, description, image}) => {
   import(`../../assets/screenshot-${image}.png`).then((module) => {
     setImageSrc(module.default);
   });
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noreferrer");
+  };
   return (
     <div className={`${swap && styles.swap} ${styles.project}`}>
       <div className={styles.projectDetails}>
@@ -30,13 +33,13 @@ const Project = ({swap, name, logo, skills, description, image}) => {
           <p className={styles.description}>{description}</p>
         </div>
         <div className={styles.projectButtons}>
-          <button className={styles.button} href="https://github.com/iris-noonan/restonauts">
+          <button className={styles.button} onClick={() => openInNewTab(github)}>
             <div className={styles.buttonIcon}>
               <Github className={styles.buttonIcon} fill="#282f54" width="24" height="24" />
             </div>
             Github
           </button>
-          <button className={styles.button} href="https://github.com/iris-noonan/restonauts">
+          <button className={styles.button} onClick={() => openInNewTab(live)}>
             <div className={styles.buttonIcon}>
               <Linkedin fill="#282f54" width="24" height="24" />
             </div>
