@@ -5,7 +5,7 @@ import Skills from '../Skills/Skills'
 
 //!--- SVGs
 import Github from '../svgs/Github'
-import Linkedin from '../svgs/Linkedin'
+import Open from '../svgs/Open'
 
 import styles from "./Project.module.scss"
 
@@ -41,9 +41,9 @@ const Project = ({swap, name, logo, skills, description, image, github, live}) =
           </button>
           <button className={styles.button} onClick={() => openInNewTab(live)}>
             <div className={styles.buttonIcon}>
-              <Linkedin fill="#282f54" width="24" height="24" />
+              <Open fill="#282f54" width="24" height="24" />
             </div>
-            Deployed Site
+            Demo Site
           </button>
         </div>
       </div>
