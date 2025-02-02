@@ -1,29 +1,42 @@
 .signoff {
   display: flex;
   width: 100%;
-  max-width: 800px;
   margin: 24px 0 64px;
 }
 
 .signoffContent {
   display: flex;
+  flex-direction: column;
   border-radius: 24px;
   border: 3px dotted var(--blue);
   padding: 24px;
+}
+
+@media (min-width: 600px) {
+  .signoffContent {
+    flex-direction: row;
+  }
 }
 
 .signoffMe {
   display: block;
   border-radius: 50%;
   flex-shrink: 0;
+  margin: auto;
 }
 
 .signoffCopy {
   display: block;
   border-radius: 50%;
   flex: 1;
-  padding-left: 24px;
+  padding: 36px 12px;
   margin: 0;
+}
+
+@media (min-width: 600px) {
+  .signoffCopy {
+    padding: 0 0 12px 24px;
+  }
 }
 
 .signoffSocial {

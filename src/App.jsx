@@ -24,21 +24,23 @@ import { interests }  from './data/interests';
 const App = () => {
   return (
     <div className={styles.app}>
-      <Header />
-      <div className={styles.appContent}>
-        <Biography />
-        <h2 id="skills" className={styles.appTitle}>Skills</h2>
-        <Skills skills={skills} showGrid />
-        <h2 id="projects" className={styles.appTitle}>Projects</h2>
-        <Projects projects={projects} />
-        <h2 id="experience" className={styles.appTitle}>Experience</h2>
-        <History history={experience} />
-        <h2 id="education" className={styles.appTitle}>Education</h2>
-        <History history={education} />
-        <h2 id="interest" className={styles.appTitle}>Interest</h2>
-        <Interests interests={interests} />
-        <h2 id="contact" className={styles.appTitle}>Contact</h2>
-        <Signoff />
+      <div className={styles.appPadding}>
+        <Header />
+        <div className={styles.appContent}>
+          <Biography />
+          <h2 id="skills" className={styles.appTitle}>Skills</h2>
+          <Skills skills={skills} showGrid />
+          <h2 id="projects" className={styles.appTitle}>Projects</h2>
+          <Projects projects={projects} />
+          <h2 id="experience" className={styles.appTitle}>Experience</h2>
+          <History history={experience} />
+          <h2 id="education" className={styles.appTitle}>Education</h2>
+          <History history={education} />
+          <h2 id="interest" className={styles.appTitle}>Interest</h2>
+          <Interests interests={interests} />
+          <h2 id="contact" className={styles.appTitle}>Contact</h2>
+          <Signoff />
+        </div>
       </div>
       <Footer />
     </div>

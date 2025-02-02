@@ -2,6 +2,12 @@
   display: grid;
   row-gap: 24px;
   column-gap: 36px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   margin-bottom: 36px;
+}
+
+@media (min-width: 600px) {
+  .interests {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

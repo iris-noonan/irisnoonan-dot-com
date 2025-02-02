@@ -1,18 +1,44 @@
 .skills {
   display: grid;
-  padding: 64px 36px;
   margin-bottom: 46px;
 }
 
 .grid {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr;
   row-gap: 36px;
-  column-gap: 36px;
+}
+
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 36px;
+  }
+}
+
+@media (min-width: 700px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 36px;
+  }
+}
+
+@media (min-width: 800px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 36px;
+  }
 }
 
 .line {
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(auto-fill, 120px);
   column-gap: 12px;
+  row-gap: 12px;
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: 600px) {
+  .line {
+    grid-template-columns: repeat(auto-fill, 120px);
+  }
 }

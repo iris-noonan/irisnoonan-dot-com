@@ -1,32 +1,54 @@
 .project {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto 72px;
 }
 
-.swap {
-  .projectDetails {
-    order: 2;
+@media (min-width: 600px) {
+  .project {
+    flex-direction: row;
   }
+}
+
+.swap {
 
   .projectScreenshots {
-    padding-right: 36px;
-    padding-left: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .swap {
+    .projectDetails {
+      order: 2;
+    }
+    .projectScreenshots {
+      padding-right: 36px;
+      padding-left: 0;
+    }
   }
 }
 
 .projectDetails {
   display: flex;
-  flex: 3;
+  flex: 2;
   flex-direction: column;
 }
 
 .projectHeader {
   display: flex;
+  flex-direction: column;
   width: 100%;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (min-width: 600px) {
+  .projectHeader {
+    flex-direction: row;
+  }
 }
 
 .logo {
@@ -34,11 +56,18 @@
 }
 
 .name {
-  margin: 0;
-  font-size: 42px;
+  margin: 0 0 18px;
+  font-size: 36px;
+  line-height: 1.2;
   background: linear-gradient(to right, var(--pink), var(--blue));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 600px) {
+  .name {
+    font-size: 42px;
+  }
 }
 
 .projectContent {
@@ -56,6 +85,7 @@
 
 .projectButtons {
   display: flex;
+  margin-bottom: 24px;
 }
 
 .button {
@@ -86,7 +116,12 @@
   flex: 2;
   display: block;
   margin-top: 16px;
-  padding-left: 36px;
+}
+
+@media (min-width: 600px) {
+  .projectScreenshots {
+    padding-left: 36px;
+  }
 }
 
 .projectScreenshot {

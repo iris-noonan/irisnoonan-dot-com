@@ -34,6 +34,7 @@ a:hover {
 
 html {
   scroll-behavior: smooth;
+  background: linear-gradient(to top, #282f54, var(--pink)) !important;
 }
 
 body {

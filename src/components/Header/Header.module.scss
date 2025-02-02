@@ -21,7 +21,7 @@
 }
 
 .headerMenu {
-  display: flex;
+  display: none;
   list-style: none;
   background: linear-gradient(to right, var(--green), var(--blue));
   -webkit-background-clip: text;
@@ -29,12 +29,18 @@
   padding: 0;
 }
 
+@media (min-width: 600px) {
+  .headerMenu {
+    display: flex;
+  }
+}
+
 .headerMenuItem {
   display: flex;
   flex-direction: column;
   list-style: none;
-  margin: 0 24px;
-  font-size: 26px;
+  margin: 0 18px;
+  font-size: 22px;
 
   &:after {
     content: '';
@@ -44,6 +50,12 @@
     margin-top: 6px;
     background: none;
   }
+
+@media (min-width: 600px) {
+  .headerMenuItem {
+    font-size: 26px;  
+  }
+}
 
 
   &:hover {
