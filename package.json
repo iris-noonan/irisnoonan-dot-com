@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/iris-noonan/irisnoonan-dot-com",
+  "homepage": "https://www.irisnoonan.com/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
