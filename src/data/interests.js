@@ -1,5 +1,6 @@
 export const interests = [
   {
+    emoji: '🧘‍♀️',
     title: 'Yoga',
     description: [
       'After many years of practice I decided to further develop my interest and proficiency in Yoga. I completed a yoga teacher training qualification.',
@@ -7,6 +8,7 @@ export const interests = [
     ]
   },
   {
+    emoji: '🚴‍♀️',
     title: 'Cycling',
     description: [
       `There's nothing better than heading out on my bike and exploring the wonders of the South Downs.`,
@@ -14,6 +16,7 @@ export const interests = [
     ]
   },
   {
+    emoji: '📖',
     title: 'Reading',
     description: [
       'I developed an interest in ready as a teenager. My first truly enjoyable read as a teenager "The Mists of Avalon"',
@@ -22,6 +25,7 @@ export const interests = [
     ]
   },
   {
+    emoji: '🍿',
     title: 'Watching',
     description: [
       `The latest series I'm watching are:`,

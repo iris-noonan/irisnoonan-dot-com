@@ -7,7 +7,7 @@ const Interests = ({interests}) => {
   return (
     <div className={styles.interests}>
       {interests.map((interest, id) => (
-        <Interest title={interest.title} description={interest.description} key={`interest-${id}`} />
+        <Interest emoji={interest.emoji} title={interest.title} description={interest.description} books={[]} key={`interest-${id}`} />
       ))}
     </div>
   )
